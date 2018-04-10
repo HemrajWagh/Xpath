@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18970" started-at="2018-02-13T01:02:34Z" finished-at="2018-02-13T01:02:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18970" started-at="2018-02-13T01:02:34Z" finished-at="2018-02-13T01:02:53Z">
+      <class name="com.qa.googlesearch.GoogleSearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.googlesearch.GoogleSearchTest@18be83e4]" name="setUp" is-config="true" duration-ms="6321" started-at="2018-02-13T06:32:34Z" finished-at="2018-02-13T06:32:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search()[pri:0, instance:com.qa.googlesearch.GoogleSearchTest@18be83e4]" name="search" duration-ms="12597" started-at="2018-02-13T06:32:40Z" finished-at="2018-02-13T06:32:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.googlesearch.GoogleSearchTest@18be83e4]" name="tearDown" is-config="true" duration-ms="5" started-at="2018-02-13T06:32:53Z" finished-at="2018-02-13T06:32:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search status=SUCCESS method=GoogleSearchTest.search()[pri:0, instance:com.qa.googlesearch.GoogleSearchTest@18be83e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.googlesearch.GoogleSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
